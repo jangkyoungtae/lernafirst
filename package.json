@@ -1,0 +1,17 @@
+{
+  "name": "@jkt/root",
+  "private": true,
+  "workspaces": [
+    "packages/**"
+  ],
+  "scripts": {
+    "start" : "lerna exec --scope @jkt/first -- npm start"
+  },
+  "devDependencies": {
+    "craco": "^0.0.3",
+    "lerna": "^6.0.1"
+  },
+  "dependencies": {
+    "yarn": "^1.22.19"
+  }
+}
