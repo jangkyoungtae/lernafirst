@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import { useState } from 'react';
-import {Button} from '@jkt/second';
+import { Button } from '@jkt/second';
 function App() {
   const [count ,setCount] = useState(0);
   return (
